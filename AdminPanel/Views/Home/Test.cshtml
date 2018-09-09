@@ -1,0 +1,119 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="container-fluid">
+    <div class="block-header">
+        <h2>
+            ChartJS
+            <small>Taken from <a href="https://github.com/chartjs/Chart.js" target="_blank">github.com/chartjs/Chart.js</a></small>
+        </h2>
+    </div>
+    <div class="row clearfix">
+        <!-- Line Chart -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>LINE CHART</h2>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Another action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
+                    <canvas id="line_chart" height="332" width="666" style="display: block; width: 533px; height: 266px;"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- #END# Line Chart -->
+        <!-- Bar Chart -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>BAR CHART</h2>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Another action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
+                    <canvas id="bar_chart" height="327" width="656" style="display: block; width: 525px; height: 262px;"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- #END# Bar Chart -->
+    </div>
+
+    <div class="row clearfix">
+        <!-- Radar Chart -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>RADAR CHART</h2>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Another action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
+                    <canvas id="radar_chart" height="327" width="656" style="display: block; width: 525px; height: 262px;"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- #END# Radar Chart -->
+        <!-- Pie Chart -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>PIE CHART</h2>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Another action</a></li>
+                                <li><a href="javascript:void(0);" class=" waves-effect waves-block">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
+                    <canvas id="pie_chart" height="327" width="656" style="display: block; width: 525px; height: 262px;"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- #END# Pie Chart -->
+    </div>
+</div>
+
